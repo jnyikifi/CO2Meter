@@ -8,7 +8,7 @@ def print_measurement(m):
           str(m.get('co2', 0)) + ", " + \
           str(m.get('temperature', 0)))
  
-Meter = CO2Meter("/dev/hidraw3")
+Meter = CO2Meter("/dev/hidraw0")
 
 print("\'timestamp\', \'co2\', \'temperature\'")
 
